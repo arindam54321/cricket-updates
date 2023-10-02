@@ -1,0 +1,14 @@
+{
+    "name": "Cricket Updates",
+    "author": "Arindam Nag",
+    "description": "An extension to get live cricket updates",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "./web/index.html",
+        "default_icon": "./web/assets/icon128.png"
+    },
+    "icons":{
+        "128": "./web/assets/icon128.png"
+    }
+}

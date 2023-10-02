@@ -1,0 +1,58 @@
+* {
+    background-color: #c6c2ff;
+}
+
+h1 {
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-left: 10px;
+    margin-bottom: 0px !important;
+}
+
+th {
+    padding-left: 33px;
+    text-align: left !important;
+    font-size: large;
+}
+
+.table {
+    min-width: 500px;
+    max-height: 198px;
+    font-size: medium;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+#page-heading {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #9c95ff;
+}
+
+th, td {
+    border: 1px solid black !important;
+    padding: 10px !important;
+}
+
+.match-status {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #444444;
+}
+
+.match-name {
+    font-family: 'Young Serif', serif;
+    font-weight: 600;
+}
+
+.table::-webkit-scrollbar {
+    width: 10px;
+}
+
+.table::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+.table::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
