@@ -15,7 +15,7 @@ async function getUpdates() {
 
             const relevantdata = matches.map(
                 (match) =>
-                    `<td class="match-name">${match.name}: </td><td class="match-status">${match.status}</td>`
+                    `<td class="match-name">${match.name}</td><td class="match-status">${match.status}</td>`
             )
 
             console.log(relevantdata)

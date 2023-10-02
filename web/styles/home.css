@@ -29,9 +29,14 @@ th {
     background-color: #9c95ff;
 }
 
-th, td {
+th, td, thead {
     border: 1px solid black !important;
     padding: 10px !important;
+}
+
+thead, thead th {
+    position: sticky;
+    top: 0px;
 }
 
 .match-status {
